@@ -1,8 +1,8 @@
 #include <iomanip>
 #include <iostream>
-#include <string>
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
+#include <string>
 
 using namespace std;
 
@@ -14,9 +14,9 @@ void loadImage1()
 
 	// show result
 	string windowName = "First steps in OpenCV";
-	cv::namedWindow(windowName, 1); // create window
+	cv::namedWindow(windowName, 1);  // create window
 	cv::imshow(windowName, img);
-	cv::waitKey(0); // wait for keyboard input before continuing
+	cv::waitKey(0);  // wait for keyboard input before continuing
 }
 
 int main()
